@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import GmailLogin from "./components/GmailLogin";
+import EmailInput from "./components/EmailInput";
 import EmailList from "./components/EmailList";
 import Summary from "./components/Summary";
 
@@ -8,9 +8,16 @@ function App() {
   const [summary, setSummary] = useState("");
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div
+      style={{
+        padding: "20px",
+        maxWidth: "700px",
+        margin: "auto",
+        fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+      }}
+    >
       <h1>Email Summarizer</h1>
-      <GmailLogin setEmails={setEmails} />
+      <EmailInput emails={emails} setEmails={setEmails} />
       <EmailList emails={emails} setSummary={setSummary} />
       <Summary summary={summary} />
     </div>

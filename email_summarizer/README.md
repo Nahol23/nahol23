@@ -1,23 +1,30 @@
-Email Summarizer:
+## Project Overview
 
-A simple React app that fetches emails (currently mocked, doesn’t actually connect to Gmail or do any real login.) and summarizes their content using OpenAI’s GPT API via a Node.js backend.
+Email Summarizer
+A simple React web application that uses AI to summarize email content. Paste your email text and get instant, concise summaries powered by open-source AI APIs.
 
-*Features:
-Login with Gmail (currently mocked ,  doesn’t actually connect to Gmail or do any real login.)
+*Features
+AI-Powered Summaries - Get concise summaries of long emails
+Simple Interface - Just paste and summarize
+History Management - View previously summarized emails (session-based)
+Responsive Design - Works on desktop and mobile
+Copy to Clipboard - Easy sharing of summaries
+Delete History - Remove unwanted entries
 
-Display list of mock emails with subject and body
+*How It Works:
+-Paste Email: Copy your email content into the input area
+-Summarize: Click the "Summarize" button to generate an AI summary
+-View History: All summarized emails appear in the middle column
+-Review: Click any email in the history to view the original text and summary again
 
-Generate 2-3 sentence summaries of emails using OpenAI API
+*Tech Stack:
+Frontend: React 
+Styling: CSS
+Icons: Lucide React
+AI Integration: Configurable for various APIs
 
-Simple UI with React components
+## Project Preview
 
-*How it works:
-Click Login with Gmail button to load mock emails (placeholder for real Gmail API integration)
+Here is the screenshot for the visual presentation of the email summarize web app:
 
-Click Summarize on an email to send its body to the backend
-
-Backend calls OpenAI GPT-3.5 API to generate a concise summary
-
-Summary is displayed below the email list
-
-
+![Summarize Email Screenshot] (SummaryEmail.png)

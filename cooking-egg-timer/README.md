@@ -1,4 +1,4 @@
-Project Overview:
+## Project Overview:
 
 Perfect Egg Timer 
  It's a beautifully designed web application that helps you cook eggs to perfection. Whether you prefer soft, medium, or hard-boiled eggs, this timer provides an intuitive interface with visual feedback to ensure your eggs come out just right every time.
@@ -35,3 +35,9 @@ Notification System:
 -HTML for structure.
 -CSS with gradients, animations, and flexbox/grid layouts for styling and responsiveness.
 -JavaScript for timer logic, UI updates, and interactivity.
+
+# Visual Preview
+
+Here is a screenshot for the visual presentation of the perfect egg cooking timer:
+
+![Perfect Egg Timer Screenshot](EggTimer.png)
